@@ -12,23 +12,8 @@ import org.openqa.selenium.interactions.Actions;
 
 import static junit.framework.Assert.assertTrue;
 
-public class tests {
+public class tests extends GenericTest {
     SearchOnAmazon amazonSearch = new SearchOnAmazon();
-//    @Before		//any steps we want to perform before we start our tests
-//    public void setup() {
-//        //initializing our system by adding our users
-//        //users.put("testuser1","testuser1");
-//        //users.put("testuser2","testuser2");
-//        //users.put("testuser3","testuser3");
-//        //startWebDriver();
-//
-//    }
-//
-//    @After		//any steps we want to perform after our tests
-//    public void cleanUp() {
-//        //close our browser, and finalize our driver instance
-//        //driver.quit();
-//    }
 
     //our statement for choosing a browser to test in
     @Given("^I want to use the browser (.*)$")
