@@ -1,18 +1,12 @@
 package AmazonBDD; /**
  * Created by Mihai on 08.09.2014.
  */
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
-import static junit.framework.Assert.assertTrue;
-
-public class tests extends GenericTest {
+public class StepDefinitions extends GenericTest {
     SearchOnAmazon amazonSearch = new SearchOnAmazon();
 
     //our statement for choosing a browser to test in
