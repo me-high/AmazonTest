@@ -2,7 +2,7 @@ package AmazonBDD; /**
  * Created by Mihai on 08.09.2014.
  */
 
-import AmazonBDD.pages.AmazonSearch;
+import AmazonBDD.Pages.AmazonSearch;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

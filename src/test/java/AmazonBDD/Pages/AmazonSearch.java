@@ -1,4 +1,4 @@
-package AmazonBDD.pages;//Author: Mihai Moraru
+package AmazonBDD.Pages;//Author: Mihai Moraru
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
