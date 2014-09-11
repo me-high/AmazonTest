@@ -1,5 +1,6 @@
 package AmazonBDD.Pages;//Author: Mihai Moraru
 
+import AmazonBDD.helpers.Config;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,6 +19,8 @@ public class AmazonSearch {
     //open specified browser
     public void chooseBrowser(Browsers browser) throws Exception {
         //instantiate a new browser based on the choice of browsers
+//        Config config = new Config();
+//        config.getBrowserType();
         switch (browser) {
             case Firefox: {
                 driver = new FirefoxDriver();

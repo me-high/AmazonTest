@@ -71,4 +71,16 @@
         </dependencies>
     </dependencyManagement>
 
+    <build>
+        <resources>
+            <resource>
+                <directory>src/test/resources</directory>
+                <includes>
+                    <include>*.xml</include>
+                    <include>*.feature</include>
+                    <include>*.properties</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
 </project>

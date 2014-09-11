@@ -8,7 +8,8 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
     @RunWith(Cucumber.class)
-    @CucumberOptions(format = "pretty", features = "src/test/resources/AmazonBDD")
+//    @CucumberOptions(format = "pretty", features = "src/test/resources/AmazonBDD")
+    @CucumberOptions(format = {"pretty", "json:target/json-report.json", "junit:target/junit-report.xml", "html:target/html"}, features = "src/test/resources/AmazonBDD")
 //    @Cucumber.Options(format = {"pretty", "html:target/cucumber-html-report", "json-pretty:target/cucumber-report.json"})
 
     public class GenericTest
