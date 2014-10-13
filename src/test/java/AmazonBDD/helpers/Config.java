@@ -3,7 +3,7 @@ package AmazonBDD.helpers;
 import java.util.ResourceBundle;
 
 /**
- * Created by Mihai on 11.09.2014.
+ * Created by Mihai on 11.10.2014.
  */
 public class Config {
 
@@ -18,19 +18,20 @@ public class Config {
             setBrowserType(prop.getString("browserType"));
         }
     }
-    public void setBrowserType (String browserType){
-        this.browserType = browserType;
-    }
 
-    public String getBrowserType (){
+    public String getBrowserType() {
         return browserType;
     }
 
-    public void setBaseURL (String baseURL){
-        this.baseURL = baseURL;
+    public void setBrowserType(String browserType) {
+        this.browserType = browserType;
     }
 
-    public String getBaseURL (){
+    public String getBaseURL() {
         return baseURL;
+    }
+
+    public void setBaseURL(String baseURL) {
+        this.baseURL = baseURL;
     }
 }
